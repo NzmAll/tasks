@@ -1,0 +1,47 @@
+@import "../../assets/css/global.css";
+
+.container{
+    display: flex;
+}
+
+.button{
+    display: flex;
+}
+
+body {
+  background-color: gray;
+}
+
+.card {
+  width: 15%;
+  margin: 20px;
+  border: 2px solid white;
+  box-shadow: 0 0 20px 5px springgreen;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card h1,
+.card p {
+  color: white;
+  margin: 10px;
+}
+
+.course {
+  text-align: center;
+}
+
+.button p {
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border: 2px solid white;
+  box-shadow: 0 0 20px 5px springgreen;
+  border-radius: 20px;
+}
